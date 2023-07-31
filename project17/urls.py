@@ -22,4 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('data_render/',data_render,name='data_render'),
     path('data_render1/',data_render1,name='data_render1'),
+    path('data_render2/',data_render2,name='data_render2'),
+    path('data_render3/',data_render3,name='data_render3'),
 ]
